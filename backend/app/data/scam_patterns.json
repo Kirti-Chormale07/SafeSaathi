@@ -1,0 +1,173 @@
+[
+  {
+    "id": "digital_arrest",
+    "title": "Digital Arrest / Fake Police Video Call",
+    "category": "Digital Arrest",
+    "keywords": ["digital arrest", "video call", "police", "cbi", "ncb", "cyber cell", "warrant", "court", "judge", "arrest", "custody", "giraftar", "supari", "bail"],
+    "signals": [
+      "Caller claims to be CBI/NCB/police and keeps you on a video call for hours",
+      "Shows a fake 'arrest warrant' or 'court order' on screen",
+      "Threatens that your account will be frozen unless you pay 'verification money'",
+      "Never lets you talk to family or disconnect the call"
+    ],
+    "explanation": {
+      "en": "No Indian agency arrests anyone over a video call. 'Digital arrest' is a made-up concept used only by scammers. Real police contact you in person with written documents.",
+      "hi": "भारत में किसी को वीडियो कॉल पर गिरफ्तार नहीं किया जाता। 'डिजिटल अरेस्ट' एक झूठी कहानी है जो सिर्फ ठग गढ़ते हैं। असली पुलिस लिखित कागज़ात के साथ सामने आती है।",
+      "mr": "भारतात कोणालाही व्हिडिओ कॉलवर अटक केली जात नाही. 'डिजिटल अरेस्ट' ही फक्त उगाच बनवलेली संकल्पना आहे. खरी पोलिस लेखी कागदपत्रांसह समोर येते."
+    },
+    "do": ["Hang up immediately", "Call 1930 or report on cybercrime.gov.in", "Tell a family member", "If a real officer visits, ask for ID and insist on the station"],
+    "dont": ["Never stay on the call", "Never pay for 'verification'", "Never share OTP or bank details", "Never install any app they send"]
+  },
+  {
+    "id": "fake_kyc",
+    "title": "Fake KYC / Account Block Message",
+    "category": "Fake KYC / Account Block",
+    "keywords": ["kyc", "aadhaar", "update kyc", "verify account", "account blocked", "account suspend", "reactivate", "last warning", "expire", "seeding", "nominee"],
+    "signals": [
+      "SMS/WhatsApp says your KYC or Aadhaar will be suspended today",
+      "Shortened or misspelled link like sbi-kyc-verify.xyz",
+      "Asks for OTP, PIN or card number to 'reactivate' the account",
+      "Threatens permanent block if you don't act in minutes"
+    ],
+    "explanation": {
+      "en": "Banks never ask you to update KYC through SMS links or WhatsApp. The link opens a fake site that copies your credentials in seconds.",
+      "hi": "बैंक कभी SMS या WhatsApp लिंक से KYC अपडेट नहीं मांगते। लिंक खोलते ही आपकी जानकारी ठगों के पास पहुँच जाती है।",
+      "mr": "बँक कधीही SMS किंवा WhatsApp लिंकद्वारे KYC अपडेट मागत नाही. लिंक उघडताच तुमची माहिती उगाच्यांका जाते."
+    },
+    "do": ["Open your bank's official app or website yourself", "Call the number on the back of your card", "Report on 1930"],
+    "dont": ["Never click the link", "Never enter OTP on a page someone sent you", "Never share card number/CVV"]
+  },
+  {
+    "id": "upi_collect",
+    "title": "UPI Collect Request / Refund Trick",
+    "category": "UPI Collect / Refund Fraud",
+    "keywords": ["collect request", "approve request", "payment request", "refund", "cashback", "verify rupee", "pay 1", "receive money", "qr", "scan qr", "refund form"],
+    "signals": [
+      "A request to 'approve' a payment to RECEIVE money - UPI works the opposite way",
+      "Asks to pay Re 1 or scan a QR code to 'unlock a refund'",
+      "Fake customer-care number from a search result or WhatsApp profile",
+      "Wants you to read out the 6-digit UPI PIN"
+    ],
+    "explanation": {
+      "en": "In UPI, approving a collect request SENDS money from your account. QR codes and UPI PINs are only for paying, never for receiving refunds.",
+      "hi": "UPI में कोई भी request approve करने का मतलब है पैसा भेजना। QR कोड और UPI PIN सिर्फ पैसे देने के लिए है, रिफंड पाने के लिए नहीं।",
+      "mr": "UPI मध्ये कोणतीही request मान्य केली की पैसे जातात. QR कोड आणि UPI PIN फक्त पैसे देण्यासाठी आहेत, पैसे मिळवण्यासाठी नाही."
+    },
+    "do": ["Reject every collect request you don't expect", "Use only the official customer-care number inside the app", "Report on 1930"],
+    "dont": ["Never approve a request to 'receive' money", "Never share UPI PIN or OTP", "Never scan a QR to get a refund"]
+  },
+  {
+    "id": "fake_job",
+    "title": "Fake Job / Work-From-Home Offer",
+    "category": "Fake Job Offer",
+    "keywords": ["job", "hiring", "vacancy", "work from home", "data entry", "part time", "daily income", "registration fee", "training fee", "joining kit", "salary per day"],
+    "signals": [
+      "Unsolicited offer with high pay for simple work",
+      "Asks for registration fee, training fee or 'joining kit' money",
+      "Payment only in crypto, gift cards or UPI to a personal account",
+      "No interview, no company email domain (gmail/yahoo address)"
+    ],
+    "explanation": {
+      "en": "Real employers never ask candidates to pay money to get a job. The 'fee' is the product - once you pay, the recruiter disappears.",
+      "hi": "असली नौकरी में कभी कंपनी उम्मीदवार से फ़ीस नहीं लेती। भर्तीकर्ता पैसे लेकर गायब हो जाता है।",
+      "mr": "खरी नोकरीमध्ये कंपनी उमेदवाराकडून फी मागत नाही. पैसे घेतल्यावर भरती करणारा गायब होतो."
+    },
+    "do": ["Verify the company on its official website", "Search '[company] + scam' before paying anything", "Report on 1930"],
+    "dont": ["Never pay to get a job", "Never share ID documents with unknown recruiters", "Never accept payment only in crypto/gift cards"]
+  },
+  {
+    "id": "lottery_prize",
+    "title": "Lottery / Prize Money Scam",
+    "category": "Lottery / Prize Scam",
+    "keywords": ["lottery", "you have won", "jackpot", "lucky draw", "prize money", "winner", "kbc", "bonus", "processing fee", "tax fee"],
+    "signals": [
+      "You 'won' a draw you never entered",
+      "Asks for processing fee, GST or insurance amount before releasing prize",
+      "WhatsApp number instead of an official website",
+      "Deadline to claim within 24 hours"
+    ],
+    "explanation": {
+      "en": "You cannot win a lottery you never played. The 'fee' you pay to release the prize is the entire scam.",
+      "hi": "जिस लॉटरी में आपने भाग नहीं लिया, वह कैसे जीत सकते हैं? 'फ़ीस' देने के बाद इनाम कभी नहीं मिलता।",
+      "mr": "ज्या लॉटरीत तुम्ही सहभाग घेतला नाही ती कसे जिंकता येईल? 'फी' दिल्यावर इनाम कधीही मिळत नाही."
+    },
+    "do": ["Delete the message", "Tell elders in the house it is fake", "Report on 1930"],
+    "dont": ["Never pay any fee to claim a prize", "Never share ID or bank details to 'verify winner'"]
+  },
+  {
+    "id": "sextortion",
+    "title": "Sextortion / Edited Video Blackmail",
+    "category": "Sextortion",
+    "keywords": ["video", "clip", "morphed", "edited", "blackmail", "forward", "family", "contacts", "expose", "shame", "obscene"],
+    "signals": [
+      "Stranger befriends you on social media and moves the chat to WhatsApp",
+      "Requests an intimate video call, then says it was 'recorded'",
+      "Threatens to send the video to your family and contacts unless you pay",
+      "Demands repeated payments - the blackmail never ends"
+    ],
+    "explanation": {
+      "en": "Paying never stops sextortion; it only identifies you as someone who will pay more. The 'video' is usually recorded from a clip or edited. Block, report, and go to the police or 1930.",
+      "hi": "पैसे देने से ब्लैकमेल बंद नहीं होता, बल्कि वे और मांगते रहते हैं। रुकें, ब्लॉक करें और 1930 या पुलिस के पास जाएँ।",
+      "mr": "पैसे दिल्याने ब्लॅकमेल थांबत नाही, ते अजून मागत राहतात. थांबा, ब्लॉक करा आणि 1930 किंवा पोलिसांकडे जा."
+    },
+    "do": ["Stop all contact and block", "Report to 1930 / cybercrime.gov.in", "Report the profile to the social network", "Talk to family or a counsellor immediately"],
+    "dont": ["Never pay - it never ends", "Never send more media", "Never delete evidence (save screenshots)"]
+  },
+  {
+    "id": "electricity_bill",
+    "title": "Electricity / Gas Disconnection Notice",
+    "category": "Fake Electricity / Utility Bill",
+    "keywords": ["electricity bill", "power", "smart meter", "disconnection", "final notice", "gas bill", "water bill", "recharge", "last date", "unpaid"],
+    "signals": [
+      "SMS says power will be disconnected tonight for unpaid bill",
+      "Asks to pay via a personal UPI ID or unknown link",
+      "Fake 'smart meter recharge' message",
+      "Threatens disconnection within hours"
+    ],
+    "explanation": {
+      "en": "Disconnection notices come through the official utility channel, never via a random SMS with a payment link to a personal UPI ID.",
+      "hi": "कटौती की नोटिस आधिकारिक विभाग से आती है, किसी अनजान लिंक या निजी UPI से नहीं।",
+      "mr": "वीजतडीचा नोटिस अधिकृत विभागाकडून येतो, कोणत्याही अनोळखी लिंक किंवा वैयक्तिक UPI कडून नाही."
+    },
+    "do": ["Check your real bill in the official app", "Pay through the official website/app only", "Report on 1930"],
+    "dont": ["Never pay a personal UPI ID for utilities", "Never click SMS links to pay bills"]
+  },
+  {
+    "id": "customs_parcel",
+    "title": "Fake Parcel / Customs Seizure",
+    "category": "Fake Parcel / Customs",
+    "keywords": ["parcel", "package", "courier", "customs", "seized", "drug", "narcotic", "delivery failed", "clearance fee", "dhl", "speed post"],
+    "signals": [
+      "Call or SMS says your parcel is held for illegal contents",
+      "Caller claims to be customs or a courier and demands a clearance fee",
+      "Threatens arrest if you don't pay quickly",
+      "Asks you to share ID documents to 'clear' the parcel"
+    ],
+    "explanation": {
+      "en": "Customs and couriers do not demand fees by phone or ask for ID on WhatsApp. This story exists only to scare you into paying.",
+      "hi": "कस्टम्स या कूरियर फ़ोन पर फ़ीस नहीं माँगते और WhatsApp पर ID नहीं माँगते। यह डरा कर पैसे ऐँठने की कहानी है।",
+      "mr": "कस्टम्स किंवा कुरियर फोनवर फी मागत नाही आणि WhatsApp वर ID मागत नाही. ही घाबरवून पैसे काढण्याची कथा आहे."
+    },
+    "do": ["Hang up", "Track any real shipment on the official courier site", "Report on 1930"],
+    "dont": ["Never pay a 'clearance fee' by phone", "Never share ID scans on WhatsApp"]
+  },
+  {
+    "id": "instant_loan",
+    "title": "Instant Loan / Fee-Fraud",
+    "category": "Instant Loan Scam",
+    "keywords": ["instant loan", "pre-approved loan", "approved loan", "processing fee", "advance fee", "gst refund", "without documents", "loan offer"],
+    "signals": [
+      "Guaranteed loan without documents or credit checks",
+      "Asks for processing fee / GST / insurance before disbursement",
+      "Loan apps that need full contact-list and gallery access",
+      "Threatens to morph your photos if you don't pay 'EMI'"
+    ],
+    "explanation": {
+      "en": "Legitimate lenders deduct fees from the loan, never demand them upfront. Rogue loan apps then blackmail you with your contacts and photos.",
+      "hi": "असली ऋणदाता फ़ीस ऋण से काटते हैं, पहले नहीं माँगते। नकली ऐप फिर आपकी फ़ोटो और contacts से ब्लैकमेल करते हैं।",
+      "mr": "खरे कर्जदार फी कर्जातून कापतात, आधी मागत नाहीत. बनावट ॲप फोटो व संपर्कांच्या आधारे ब्लॅकमेल करतात."
+    },
+    "do": ["Use only RBI-registered lenders", "Check the app's permissions and reviews", "Report on 1930"],
+    "dont": ["Never pay fees before a loan is disbursed", "Never grant contact/gallery access to loan apps"]
+  }
+]

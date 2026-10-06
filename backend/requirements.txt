@@ -1,0 +1,14 @@
+# SafeSaathi backend - core (works without any API keys)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+python-multipart>=0.0.9
+python-dotenv>=1.0
+gTTS>=2.5.1
+
+# Optional: screenshot OCR (needs the Tesseract binary installed separately)
+Pillow>=10.4
+pytesseract>=0.3.13
+
+# Optional extras (enable by uncommenting):
+# faster-whisper>=1.0   # local speech-to-text (no OpenAI key needed, ~460MB model)

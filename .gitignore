@@ -1,0 +1,21 @@
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+npm-debug.log*
+
+# Python
+backend/venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+*.egg-info/
+
+# SafeSaathi runtime data (regenerated automatically)
+backend/static/audio/
+backend/.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
